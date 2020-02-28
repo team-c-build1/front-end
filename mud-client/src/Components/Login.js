@@ -50,8 +50,15 @@ class Login extends React.Component {
                         </FormGroup>
                         <FormGroup>
                             <Label>Password</Label>
-                            </FormGroup></Form></div>
+                            <Input type="password" name="password" value={this.state.password} onChange={this.changeHandler}/>
+                        </FormGroup>
+                        <Button>Login</Button>
+                    </Form>
+                    <p>{this.state.error === true ? "Invalid Credentials" : ""}</p>
+                </div>
             )
         }
     }
 }
+
+export default Login;
