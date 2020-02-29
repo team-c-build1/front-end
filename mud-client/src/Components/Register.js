@@ -10,7 +10,7 @@ import {
     FormLabel,
     FormHeader,
     Body
-  } from "./Custom Components/index";
+  } from "./CustomComponents/index";
   import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser, faLock } from "@fortawesome/free-solid-svg-icons";
 
@@ -19,6 +19,7 @@ import { faUser, faLock } from "@fortawesome/free-solid-svg-icons";
  * Sends a credentials object to the API with username, password1, and password2, where password1 and password2 should match
  * Awaits an object response from API with a key to set to user's localStorage, to verify they are a valid registered user
  */
+
 
 class Register extends Component {
     constructor() {
@@ -128,6 +129,7 @@ class Register extends Component {
               {/* <Link to="/login">
                 <FormText>Already registered?</FormText>
               </Link> */}
+              
             </Form>
         </Body>
       );
