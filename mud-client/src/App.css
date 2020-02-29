@@ -36,3 +36,34 @@
     transform: rotate(360deg);
   }
 }
+
+.form login-form {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.logo-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navigation-links {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-link {
+  margin-left: 20px;
+}
+
+
