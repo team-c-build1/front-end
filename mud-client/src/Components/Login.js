@@ -1,5 +1,7 @@
 import React, { useReducer } from 'react';
 import axios from 'axios';
+import './App.js';
+import './Components/NavBar.js';
 
 class Login extends React.Component {
     state = {
