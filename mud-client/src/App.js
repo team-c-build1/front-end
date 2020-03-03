@@ -1,25 +1,20 @@
 import React from 'react';
+<<<<<<< HEAD
 import logo from './logo.svg';
 import './App.css';
 import './Components/Login.js';
+=======
+import Register from "./Components/Register"
+
+
+>>>>>>> e256f210d368e7a7e9500834eafb70d40430c579
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Register/>
+        
+      
     </div>
   );
 }
